@@ -1,0 +1,22 @@
+{
+  "name": "bulma-custom",
+  "version": "1.0.0",
+  "description": "Simple setup to start customizing bulma",
+  "main": "index.js",
+  "scripts": {
+    "css-build": "node-sass sass/styles.scss css/styles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "keywords": [
+    "bulma",
+    "customize",
+    "css"
+  ],
+  "author": "WalterCJ",
+  "license": "MIT",
+  "devDependencies": {
+    "bulma": "^0.7.2",
+    "node-sass": "^4.11.0"
+  }
+}
